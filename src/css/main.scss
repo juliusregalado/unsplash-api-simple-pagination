@@ -1,0 +1,18 @@
+section.grid-layout {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+img.splash-feed-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  @media(max-width: 768px) {
+      margin-bottom: 1rem;
+  }
+}
+
+img.splash-feed-img:hover {
+opacity: .7;
+}
